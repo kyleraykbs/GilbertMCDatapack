@@ -29,12 +29,18 @@
     ],
     [
       "minecraft:lake_water",
-      "aether:glowstone_pile"
+      "aether:glowstone_pile",
+      "minecraft:forest_flower_vegetation_common",
+      "minecraft:patch_berry_bush",
+      "minecraft:red_mushroom_giant",
+      "minecraft:forest_flower_vegetation"
     ],
     [
       "minecraft:forest_flower_trees"
     ],
     [
+      "minecraft:patch_berry_bush",
+      "minecraft:red_mushroom_giant"
     ],
     [
     ],
@@ -42,6 +48,7 @@
     ],
     [
       "minecraft:ore_dirt",
+      "minecraft:patch_berry_bush",
       "minecraft:ore_gravel",
       "minecraft:ore_granite",
       "minecraft:ore_diorite",

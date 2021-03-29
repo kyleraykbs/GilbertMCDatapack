@@ -38,7 +38,7 @@
           "parameters": {
             "altitude": 0,
             "temperature": 0,
-            "humidity": 0,
+            "humidity": 0.5,
             "weirdness": 1,
             "offset": 0
           }
@@ -48,8 +48,8 @@
           "parameters": {
             "altitude": 0,
             "temperature": 0,
-            "humidity": 1,
-            "weirdness": 0,
+            "humidity": 0,
+            "weirdness": 1,
             "offset": 0
           }
         },
@@ -57,9 +57,9 @@
           "biome": "aether:golden_plains",
           "parameters": {
             "altitude": 0,
-            "temperature": 0,
+            "temperature": 0.5,
             "humidity": 1,
-            "weirdness": 0.1,
+            "weirdness": 0.8,
             "offset": 0
           }
         },

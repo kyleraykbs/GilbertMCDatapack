@@ -28,6 +28,7 @@
     [
     ],
     [
+      "aether:cyan_crystal_oak_tree",
       "minecraft:lake_water",
       "aether:glowstone_pile",
       "minecraft:forest_flower_vegetation_common",
@@ -36,7 +37,8 @@
       "minecraft:forest_flower_vegetation"
     ],
     [
-      "minecraft:forest_flower_trees"
+      "minecraft:forest_flower_trees",
+      "aether:cyan_crystal_tree"
     ],
     [
       "minecraft:patch_berry_bush",

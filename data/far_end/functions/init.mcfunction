@@ -1,6 +1,4 @@
 # Intro #
-tellraw @a[tag=!fe.set_default] [{"text":"\"Far End : Ender Expansion Pack v1.2\"","color":"dark_purple","italic":false},{"text":" has been installed!","color":"white"}]
-
 # Scoreboards #
 scoreboard objectives add fe.constant dummy
 scoreboard objectives add fe.variable dummy

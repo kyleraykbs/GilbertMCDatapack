@@ -1,6 +1,10 @@
 {
         "values": [
         "gilbert:tick",
-        "aether:tick"
+        "aether:tick",
+
+        "multiplayer_sleep:load",
+        "multiplayer_sleep:tick",
+        "multiplayer_sleep:enable_trigger"
      ]
 }

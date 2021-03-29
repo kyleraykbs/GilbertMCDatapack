@@ -38,7 +38,7 @@
           "parameters": {
             "altitude": 0,
             "temperature": 0,
-            "humidity": 0.5,
+            "humidity": 0,
             "weirdness": 1,
             "offset": 0
           }
@@ -48,8 +48,8 @@
           "parameters": {
             "altitude": 0,
             "temperature": 0,
-            "humidity": 0,
-            "weirdness": 1,
+            "humidity": 1,
+            "weirdness": 0,
             "offset": 0
           }
         },
@@ -57,29 +57,19 @@
           "biome": "aether:golden_plains",
           "parameters": {
             "altitude": 0,
-            "temperature": 0.5,
+            "temperature": 0,
             "humidity": 1,
-            "weirdness": 0.8,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "far_end:ashfall_marshland",
-          "parameters": {
-            "altitude": 0,
-            "temperature": 1,
-            "humidity": 0,
-            "weirdness": 0,
+            "weirdness": 0.1,
             "offset": 0
           }
         },
         {
           "biome": "aether:blooming_forest",
           "parameters": {
-            "altitude": 1,
-            "temperature": 0,
-            "humidity": 0,
-            "weirdness": 0,
+            "altitude": 0,
+            "temperature": 0.5,
+            "humidity": 0.9,
+            "weirdness": 0.5,
             "offset": 0
           }
         }

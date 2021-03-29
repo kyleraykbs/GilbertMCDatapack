@@ -5,7 +5,7 @@
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "foliage_color": 11161456,
+    "foliage_color": 16746495,
     "grass_color": 65437
   },
   "carvers":
@@ -28,7 +28,8 @@
     [
     ],
     [
-      "minecraft:lake_water"
+      "minecraft:lake_water",
+      "aether:glowstone_pile"
     ],
     [
       "minecraft:forest_flower_trees"

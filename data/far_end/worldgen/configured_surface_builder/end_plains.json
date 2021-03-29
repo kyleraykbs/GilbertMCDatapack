@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:default",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:purple_concrete_powder"
+    },
+    "under_material": {
+      "Name": "minecraft:end_stone"
+    },
+    "underwater_material": {
+      "Name": "minecraft:end_stone"
+    }
+  }
+}

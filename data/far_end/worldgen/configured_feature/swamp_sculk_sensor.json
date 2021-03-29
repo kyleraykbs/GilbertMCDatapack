@@ -99,7 +99,7 @@
                                     ],
                                     "place_under": [
                                       {
-                                        "Name": "minecraft:sculk_sensor",
+                                        "Name": "dark_prismarine_slab",
                                         "Properties": {
                                           "power": "0",
                                           "sculk_sensor_phase": "inactive",
@@ -128,7 +128,7 @@
                               "type": "minecraft:simple_block",
                               "config": {
                                 "to_place": {
-                                  "Name": "minecraft:sculk_sensor",
+                                  "Name": "minecraft:dark_prismarine_slab",
                                   "Properties": {
                                     "power": "0",
                                     "sculk_sensor_phase": "inactive",

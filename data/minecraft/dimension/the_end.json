@@ -54,6 +54,16 @@
           }
         },
         {
+          "biome": "far_end:ender_plains",
+          "parameters": {
+            "altitude": 0,
+            "temperature": 0,
+            "humidity": 1,
+            "weirdness": 0.1,
+            "offset": 0
+          }
+        },
+        {
           "biome": "far_end:ashfall_marshland",
           "parameters": {
             "altitude": 0,

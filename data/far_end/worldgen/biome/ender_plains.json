@@ -1,5 +1,5 @@
 {
-  "surface_builder": "far_end:end_warped",
+  "surface_builder": "far_end:end_plains",
   "depth": 0.125,
   "scale": 0.05,
   "temperature": -0.5,
@@ -44,19 +44,19 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:stray",
+        "type": "minecraft:husk",
         "weight": 2,
         "minCount": 2,
         "maxCount": 7
       },
       {
-        "type": "minecraft:endermite",
-        "weight": 2,
-        "minCount": 2,
-        "maxCount": 7
+        "type": "minecraft:vindicator",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 2
       },
       {
-        "type": "minecraft:phantom",
+        "type": "minecraft:shulker",
         "weight": 2,
         "minCount": 2,
         "maxCount": 4

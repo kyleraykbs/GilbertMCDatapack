@@ -12,7 +12,7 @@
       "type": "minecraft:emerald_ore",
       "config": {
         "state": {
-          "Name": "minecraft:tuff"
+          "Name": "minecraft:clay"
         },
         "target": {
           "Name": "minecraft:basalt",

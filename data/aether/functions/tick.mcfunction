@@ -33,6 +33,6 @@
 #Timer Sheep
     #Count Down
         scoreboard players remove @e[scores={timer_sheep=1..}] timer_sheep 1
-    #Run Command At 1
+    #Fly Sheep
         execute as @e[scores={timer_sheep=1}] at @s run execute in the_aether as @e[type=minecraft:sheep,limit=5,sort=random] run effect give @s minecraft:levitation 2 6 true
         execute as @e[scores={timer_sheep=0}] at @s run scoreboard players set @s timer_sheep 200

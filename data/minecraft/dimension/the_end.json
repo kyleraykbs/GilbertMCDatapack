@@ -48,8 +48,8 @@
           "parameters": {
             "altitude": 0,
             "temperature": 0,
-            "humidity": 0,
-            "weirdness": 1,
+            "humidity": 1,
+            "weirdness": 0.1,
             "offset": 0
           }
         },

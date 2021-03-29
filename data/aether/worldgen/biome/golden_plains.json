@@ -5,8 +5,8 @@
       "fog_color": 12638463,
       "water_color": 13549055,
       "water_fog_color": 5783646,
-      "foliage_color": 10092288,
-      "grass_color": 14810880,
+      "foliage_color": 65280,
+      "grass_color": 16777043,
       "particle":
       {
         "options":
@@ -15,7 +15,7 @@
           "scale": 1,
           "r": 1,
           "g": 0.984313725490196,
-          "b": 0.7607843137254902
+          "b": 0.3607843137254902
         },
         "probability": 0.015
       }

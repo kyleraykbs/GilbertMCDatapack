@@ -54,7 +54,7 @@
           }
         },
         {
-          "biome": "far_end:ender_plains",
+          "biome": "aether:golden_plains",
           "parameters": {
             "altitude": 0,
             "temperature": 0,

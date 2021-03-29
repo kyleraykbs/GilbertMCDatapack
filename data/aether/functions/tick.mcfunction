@@ -1,16 +1,16 @@
 #Player Commands
     #Jump Boost
-        execute in minecraft:world_the_aether as @a[distance=..100000000] at @s run effect give @s minecraft:jump_boost 1 3 true
+        execute in minecraft:the_aether as @a[distance=..100000000] at @s run effect give @s minecraft:jump_boost 1 3 true
     #Void Teleport
-        execute in minecraft:world_the_aether as @a at @s if entity @s[y=1,dy=-10000000] run execute in minecraft:overworld run tp @s -65.13 254.38 -1237.22 -180.17 90.00
+        execute in minecraft:the_aether as @a at @s if entity @s[y=1,dy=-10000000] run execute in minecraft:overworld run tp @s -65.13 254.38 -1237.22 -180.17 90.00
     #Teleport To Aether
         execute as @a[distance=..999999] at @s if block ~ ~-1 ~ minecraft:glowstone if block ~ ~1 ~ minecraft:light_blue_stained_glass_pane if block ~ ~ ~ minecraft:light_blue_stained_glass_pane run execute in minecraft:world_the_aether run tp @s -329.44 57.00 -404.02 -268.15 -1.82
     #Teleport To Overworld
-        execute in minecraft:world_the_aether run execute as @a[distance=..999999] at @s if block ~ ~-1 ~ glowstone if block ~ ~ ~ minecraft:light_blue_stained_glass_pane if block ~ ~1 ~ minecraft:light_blue_stained_glass_pane run execute in minecraft:overworld run tp @s -65.51 92.00 -1245.92 -90.61 -3.49
+        execute in minecraft:the_aether run execute as @a[distance=..999999] at @s if block ~ ~-1 ~ glowstone if block ~ ~ ~ minecraft:light_blue_stained_glass_pane if block ~ ~1 ~ minecraft:light_blue_stained_glass_pane run execute in minecraft:overworld run tp @s -65.51 92.00 -1245.92 -90.61 -3.49
 
 #Entity Commands
     #Golden Sheep
-        execute in minecraft:world_the_aether run data merge entity @e[type=sheep,distance=0..,limit=1,nbt=!{Color:4b,Tags:["flyingsheep"]}] {NoGravity:0b,Color:4b,Tags:["flyingsheep"],ActiveEffects:[{Id:28b,Amplifier:255b,Duration:511100,ShowParticles:1b}]}
+        execute in minecraft:the_aether run data merge entity @e[type=sheep,distance=0..,limit=1,nbt=!{Color:4b,Tags:["flyingsheep"]}] {NoGravity:0b,Color:4b,Tags:["flyingsheep"],ActiveEffects:[{Id:28b,Amplifier:255b,Duration:511100,ShowParticles:1b}]}
     #Portal Summon
         execute at @e[tag=apa] run setblock ~ ~ ~ air
         execute at @e[tag=apa] if block ~ ~-1 ~1 minecraft:glowstone run fill ~ ~ ~-1 ~ ~2 ~1 minecraft:light_blue_stained_glass_pane replace air

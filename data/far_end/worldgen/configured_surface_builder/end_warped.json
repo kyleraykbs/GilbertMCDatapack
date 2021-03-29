@@ -5,10 +5,10 @@
       "Name": "minecraft:warped_nylium"
     },
     "under_material": {
-      "Name": "minecraft:netherrack"
+      "Name": "minecraft:end_stone"
     },
     "underwater_material": {
-      "Name": "minecraft:netherrack"
+      "Name": "minecraft:end_stone"
     }
   }
 }

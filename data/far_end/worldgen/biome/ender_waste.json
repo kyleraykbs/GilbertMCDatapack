@@ -11,8 +11,8 @@
   "effects": {
     "sky_color": 7907327,
     "fog_color": 16636149,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
+    "water_color": 1280,
+    "water_fog_color": 1280,
     "grass_color_modifier": "none",
     "music": {
       "sound": "music.end",

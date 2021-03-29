@@ -31,7 +31,8 @@
         "minecraft:lake_water"
       ],
       [
-        "aether:yellow_crystal_tree"
+        "aether:yellow_crystal_tree",
+        "aether:pink_crystal_tree"
       ],
       [
       ],
@@ -53,7 +54,8 @@
         "minecraft:ore_lapis",
         "minecraft:disk_sand",
         "minecraft:disk_clay",
-        "minecraft:disk_gravel"
+        "minecraft:disk_gravel",
+        "aether:pink_crystal_tree"
       ],
       [
       ],

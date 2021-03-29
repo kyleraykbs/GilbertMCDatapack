@@ -25,7 +25,7 @@
 
 #World Commands
     #Force Daytime
-        execute in minecraft:world_the_aether run time set day
+     #BROKEN #execute in minecraft:world_the_aether run time set day
     #Portal Maintain
         fill -67 95 -1248 -67 91 -1245 minecraft:glowstone
         fill -67 92 -1246 -67 94 -1247 minecraft:light_blue_stained_glass_pane

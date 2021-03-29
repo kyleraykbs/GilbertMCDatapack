@@ -2,7 +2,7 @@
   "type": "minecraft:default",
   "config": {
     "top_material": {
-      "Name": "minecraft:purple_concrete_powder"
+      "Name": "minecraft:light_blue_terracotta"
     },
     "under_material": {
       "Name": "minecraft:end_stone"

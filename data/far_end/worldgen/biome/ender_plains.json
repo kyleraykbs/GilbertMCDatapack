@@ -4,7 +4,7 @@
   "scale": 0.05,
   "temperature": -0.5,
   "downfall": 0.4,
-  "precipitation": "snow",
+  "precipitation": "air",
   "temperature_modifier": "frozen",
   "category": "icy",
   "player_spawn_friendly": false,
@@ -59,7 +59,7 @@
         "type": "minecraft:shulker",
         "weight": 2,
         "minCount": 2,
-        "maxCount": 4
+        "maxCount": 8
       },
       {
         "type": "minecraft:enderman",
@@ -96,7 +96,10 @@
       "minecraft:warped_forest_vegetation",
       "far_end:light_warped_pile",
       "far_end:warped_test",
-      "minecraft:end_spike"
+      "far_end:big_warped_pile",
+      "minecraft:end_spike",
+      "minecraft:patch_waterlilly",
+      "far_end:swamp_lake"
     ]
   ]
 }

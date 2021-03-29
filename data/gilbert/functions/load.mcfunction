@@ -6,3 +6,6 @@
     #Give Commands
         #Lucky Boots
             give @a[gamemode=creative] leather_boots{display:{Name:'{"text":"Lucky Boots","color":"dark_green","bold":true}',color:1488150}} 1
+
+#Timer
+    scoreboard objectives add timer_sheep dummy

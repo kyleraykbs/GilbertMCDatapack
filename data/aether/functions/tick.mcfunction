@@ -29,3 +29,10 @@
     #Portal Maintain
         fill -67 95 -1248 -67 91 -1245 minecraft:glowstone
         fill -67 92 -1246 -67 94 -1247 minecraft:light_blue_stained_glass_pane
+
+#Timer Sheep
+    #Count Down
+        scoreboard players remove @e[scores={timer_sheep=1..}] timer_sheep 1
+    #Run Command At 1
+        execute as @e[scores={timer_sheep=1}] at @s run execute in the_aether as @e[type=minecraft:sheep,limit=5,sort=random] run effect give @s minecraft:levitation 2 6 true
+        execute as @e[scores={timer_sheep=0}] at @s run scoreboard players set @s timer_sheep 200

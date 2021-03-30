@@ -1,8 +1,10 @@
 #Player Commands
     #Jump Boost
-        execute in minecraft:the_aether as @a[distance=..100000000] at @s run effect give @s minecraft:jump_boost 1 3 true
+        execute in minecraft:the_aether as @a[nbt={Dimension:"minecraft:the_aether"}] at @s run effect give @s minecraft:jump_boost 1 3 true
     #Void Teleport
-        execute in minecraft:the_aether as @a at @s if entity @s[y=1,dy=-10000000] run execute in minecraft:overworld run tp @s -65.13 254.38 -1237.22 -180.17 90.00
+        execute in minecraft:the_aether as @a at @s if entity @s[y=0,dy=-10000000,nbt={Dimension:"minecraft:the_aether"}] run execute in minecraft:overworld run tp @s ~ 260 ~
+    #Sky Teleport
+        execute in minecraft:the_aether as @a at @s if entity @s[y=270,dy=10000000,nbt={Dimension:"minecraft:overworld"}] run execute in minecraft:the_aether run tp @s ~ 8 ~
     #Teleport To Aether
         execute as @a[distance=..999999] at @s if block ~ ~-1 ~ minecraft:glowstone if block ~ ~1 ~ minecraft:light_blue_stained_glass_pane if block ~ ~ ~ minecraft:light_blue_stained_glass_pane run execute in minecraft:world_the_aether run tp @s -329.44 57.00 -404.02 -268.15 -1.82
     #Teleport To Overworld

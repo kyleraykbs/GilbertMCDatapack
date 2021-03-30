@@ -6,8 +6,17 @@
       "water_color": 16760063,
       "water_fog_color": 329011,
       "foliage_color": 11161456,
-      "grass_color": 8126426
-    },
+      "grass_color": 8126426,
+      "particle":
+      {
+        "options":
+        {
+          "type": "minecraft:firework",
+          "scale": 1.5
+        },
+      "probability": 0.008
+    }
+  },
     "carvers":
     {
       "air":

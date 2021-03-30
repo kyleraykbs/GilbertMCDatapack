@@ -1,12 +1,21 @@
 {
-  "effects":
-  {
-    "sky_color": 7907327,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "foliage_color": 16746495,
-    "grass_color": 65437
+    "effects":
+    {
+      "sky_color": 7907327,
+      "fog_color": 12638463,
+      "water_color": 4159204,
+      "water_fog_color": 329011,
+      "foliage_color": 16746495,
+      "grass_color": 65437,
+      "particle":
+      {
+        "options":
+        {
+          "type": "minecraft:end_rod",
+          "scale": 1
+        },
+      "probability": 0.015
+    }
   },
   "carvers":
   {

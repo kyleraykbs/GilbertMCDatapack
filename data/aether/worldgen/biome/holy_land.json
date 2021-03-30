@@ -1,21 +1,21 @@
 {
     "effects":
     {
-      "sky_color": 7907327,
-      "fog_color": 12638463,
-      "water_color": 13549055,
-      "water_fog_color": 5783646,
-      "foliage_color": 16777114,
-      "grass_color": 16777043,
+      "sky_color": 16777140,
+      "fog_color": 16777140,
+      "water_color": 8978376,
+      "water_fog_color": 8978376,
+      "foliage_color": 11464191,
+      "grass_color": 11464191,
       "particle":
       {
         "options":
         {
           "type": "minecraft:dust",
           "scale": 1,
-          "r": 1,
+          "r": 0.3607843137254902,
           "g": 0.984313725490196,
-          "b": 0.3607843137254902
+          "b": 1
         },
         "probability": 0.015
       }
@@ -25,7 +25,8 @@
       "air":
       [
         "minecraft:cave",
-        "minecraft:canyon"
+        "minecraft:canyon",
+        "aether:holy"
       ]
     },
     "starts":
@@ -34,6 +35,8 @@
     "features":
     [
       [
+        "aether:holy_tree",
+        "aether:lake",
         "minecraft:patch_waterlilly",
         "minecraft:lake_water",
         "minecraft:trees_water"
@@ -43,6 +46,8 @@
         "minecraft:patch_waterlilly"
       ],
       [
+        "aether:holy_tree",
+        "aether:lake"
       ],
       [
       ],
@@ -190,7 +195,7 @@
     },
     "category": "plains",
     "precipitation": "rain",
-    "surface_builder": "minecraft:grass",
+    "surface_builder": "aether:holy_lands",
     "scale": 0.05,
     "downfall": 0.4,
     "depth": 0.12,

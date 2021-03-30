@@ -17,8 +17,8 @@
           "Name": "minecraft:grass_block"
         },
         "radius": {
-          "base": 2,
-          "spread": 1
+          "base": 4,
+          "spread": 3
         }
       }
     }

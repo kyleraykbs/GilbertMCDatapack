@@ -35,6 +35,7 @@
     "features":
     [
       [
+        "aether:holy_grass_patch",
         "aether:holy_tree",
         "aether:lake",
         "minecraft:patch_waterlilly",
@@ -42,6 +43,7 @@
         "minecraft:trees_water"
       ],
       [
+        "aether:holy_grass_patch",
         "minecraft:lake_water",
         "minecraft:patch_waterlilly"
       ],
@@ -194,7 +196,7 @@
       ]
     },
     "category": "plains",
-    "precipitation": "rain",
+    "precipitation": "none",
     "surface_builder": "aether:holy_lands",
     "scale": 0.05,
     "downfall": 0.4,

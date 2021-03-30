@@ -186,7 +186,7 @@
       ]
     },
     "category": "forest",
-    "precipitation": "rain",
+    "precipitation": "none",
     "surface_builder": "minecraft:grass",
     "scale": 0.05,
     "downfall": 0.4,

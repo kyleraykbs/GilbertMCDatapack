@@ -4,7 +4,7 @@
     "decorator": {
       "type": "minecraft:count_multilayer",
       "config": {
-        "count": 1
+        "count": 2
       }
     },
     "feature": {
@@ -14,11 +14,11 @@
           "Name": "minecraft:glowstone"
         },
         "target": {
-          "Name": "minecraft:grass_block"
+          "Name": "minecraft:stone"
         },
         "radius": {
-          "base": 4,
-          "spread": 3
+          "base": 5,
+          "spread": 5
         }
       }
     }

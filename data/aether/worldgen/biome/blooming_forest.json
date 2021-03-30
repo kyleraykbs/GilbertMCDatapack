@@ -14,7 +14,7 @@
           "type": "minecraft:end_rod",
           "scale": 1
         },
-      "probability": 0.015
+      "probability": 0.005
     }
   },
   "carvers":

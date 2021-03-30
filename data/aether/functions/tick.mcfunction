@@ -34,7 +34,7 @@
 
 #Timer Sheep
     #Count Down
-        scoreboard players remove @e[scores={timer_sheep=1..}] timer_sheep 1
+        scoreboard players add @a timer_sheep 1
     #Fly Sheep
-        execute as @e[scores={timer_sheep=1}] at @s run execute in the_aether as @e[type=minecraft:sheep,limit=5,sort=random] run effect give @s minecraft:levitation 2 6 true
-        execute as @e[scores={timer_sheep=0}] at @s run scoreboard players set @s timer_sheep 200
+        execute as @a[scores={timer_sheep=200}] at @s run execute in the_aether as @e[type=minecraft:sheep,limit=12,sort=random] run effect give @s minecraft:levitation 2 6 true
+        execute as @a[scores={timer_sheep=201..}] at @s run scoreboard players reset @a timer_sheep

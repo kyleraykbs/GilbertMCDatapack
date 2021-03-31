@@ -3,10 +3,11 @@
     {
       "sky_color": 16777140,
       "fog_color": 16777140,
-      "water_color": 8978376,
-      "water_fog_color": 8978376,
-      "foliage_color": 11464191,
-      "grass_color": 11464191,
+      "water_fog_color": 4635391,
+      "water_color": 4635391,
+      "foliage_color": 16776960,
+      "grass_color": 16776960,
+      
       "particle":
       {
         "options":
@@ -35,6 +36,7 @@
     "features":
     [
       [
+        "",
         "aether:holy_grass_patch",
         "aether:holy_tree",
         "aether:lake",
@@ -52,6 +54,7 @@
         "aether:lake"
       ],
       [
+        "aether:holy_ice_patch"
       ],
       [
       ],

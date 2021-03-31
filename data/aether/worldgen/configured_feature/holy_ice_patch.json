@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:ice_patch",
+  "config": {
+    "state": {
+      "Name": "minecraft:packed_ice"
+    },
+    "radius": {
+      "base": 2,
+      "spread": 1
+    },
+    "half_height": 1,
+    "targets": [
+      {
+        "Name": "minecraft:water"
+      }
+    ]
+  }
+}

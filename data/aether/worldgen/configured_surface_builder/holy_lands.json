@@ -2,7 +2,7 @@
     "type": "minecraft:default",
     "config": {
       "top_material": {
-        "Name": "minecraft:white_concrete_powder"
+        "Name": "minecraft:snow_block"
       },
       "under_material": {
         "Name": "minecraft:dirt"

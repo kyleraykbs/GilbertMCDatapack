@@ -1,5 +1,5 @@
 {
-  "name": "test:pool",
+  "name": "aether:village_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {

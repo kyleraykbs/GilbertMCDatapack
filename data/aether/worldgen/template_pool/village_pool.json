@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 50,
+      "weight": 30,
       "element": {
         "location": "aether:aether_village_path_forward_1",
         "processors": "minecraft:empty",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 12,
       "element": {
         "location": "aether:aether_village_path_stairs_1",
         "processors": "minecraft:empty",

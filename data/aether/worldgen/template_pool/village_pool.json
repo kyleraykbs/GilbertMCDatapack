@@ -5,7 +5,16 @@
     {
       "weight": 50,
       "element": {
-        "location": "minecraft:jigsawtest1",
+        "location": "aether:aether_village_path_corner_1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "aether:aether_village_path_forward_1",
         "processors": "minecraft:empty",
 		"projection": "rigid",
         "element_type": "minecraft:single_pool_element"

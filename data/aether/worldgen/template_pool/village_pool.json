@@ -12,6 +12,15 @@
       }
     },
     {
+      "weight": 1,
+      "element": {
+        "location": "aether:aether_village_start",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
       "weight": 30,
       "element": {
         "location": "aether:aether_village_path_forward_1",

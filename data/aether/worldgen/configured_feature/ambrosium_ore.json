@@ -17,8 +17,8 @@
             "Name": "minecraft:stone"
           },
           "radius": {
-            "base": 2,
-            "spread": 2
+            "base": 1,
+            "spread": 1
           }
         }
       }

@@ -9,8 +9,10 @@
         #Ambrosium Ore
             give @a[gamemode=creative] yellow_dye{display:{Name:'{"text":"Ambrosium Ore","color":"yellow","bold":true,"italic":false}'},HideFlags:1,CustomModelData:2,Enchantments:[{}]} 1
         #Ambrosium Cluster
-            give @a[gamemode=creative] honeycomb{display:{Name:'{"text":"Ambrosium Cluster","color":"yellow","bold":true,"italic":false}'},HideFlags:1,Enchantments:[{}]} 1
+            give @a[gamemode=creative] honeycomb{display:{Name:'{"text":"Ambrosium Cluster","color":"yellow","bold":true,"italic":false}'},HideFlags:1,CustomModelData:3,Enchantments:[{}]} 1
         #Ambrosium Ingot
-            give @a[gamemode=creative] brick{display:{Name:'{"text":"Ambrosium Ingot","color":"yellow","bold":true,"italic":false}'},HideFlags:1,Enchantments:[{}]} 1
+            give @a[gamemode=creative] magma_cream{display:{Name:'{"text":"Ambrosium Ingot","color":"yellow","bold":true,"italic":false}'},HideFlags:1,CustomModelData:4,Enchantments:[{}]} 1
+        #Ambrosium Shard
+            give @a[gamemode=creative] gold_nugget{display:{Name:'{"text":"Ambrosium Shard","color":"gold","bold":true,"italic":false}',Lore:['{"text":"[Accessory]","color":"dark_purple","italic":true}','{"text":"+2 Extra Hearts","color":"green","italic":false}']},HideFlags:1,CustomModelData:5,Enchantments:[{}]} 1
 #Timer
     scoreboard objectives add timer_sheep dummy

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count_multilayer",
+        "config": {
+          "count": 2
+        }
+      },
+      "feature": {
+        "type": "minecraft:netherrack_replace_blobs",
+        "config": {
+          "state": {
+            "Name": "minecraft:gold_ore"
+          },
+          "target": {
+            "Name": "minecraft:stone"
+          },
+          "radius": {
+            "base": 2,
+            "spread": 2
+          }
+        }
+      }
+    }
+  }
+  

@@ -8,5 +8,9 @@
             give @a[gamemode=creative] leather_boots{display:{Name:'{"text":"Lucky Boots","color":"dark_green","bold":true}',color:1488150}} 1
         #Ambrosium Ore
             give @a[gamemode=creative] yellow_dye{display:{Name:'{"text":"Ambrosium Ore","color":"yellow","bold":true,"italic":false}'},HideFlags:1,CustomModelData:2,Enchantments:[{}]} 1
+        #Ambrosium Cluster
+            give @a[gamemode=creative] honeycomb{display:{Name:'{"text":"Ambrosium Cluster","color":"yellow","bold":true,"italic":false}'},HideFlags:1,Enchantments:[{}]} 1
+        #Ambrosium Ingot
+            give @a[gamemode=creative] brick{display:{Name:'{"text":"Ambrosium Ingot","color":"yellow","bold":true,"italic":false}'},HideFlags:1,Enchantments:[{}]} 1
 #Timer
     scoreboard objectives add timer_sheep dummy

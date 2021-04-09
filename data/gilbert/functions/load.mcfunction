@@ -5,7 +5,7 @@
 #Testing
     #Give Commands
         #Lucky Boots
-            give @a[gamemode=creative] leather_boots{display:{Name:'{"text":"Lucky Boots","color":"dark_green","bold":true}',color:1488150}} 1
+            give @a[gamemode=creative] leather_boots{display:{Name:'{"text":"Slime Boots","color":"dark_green","bold":true}',color:1488150},CustomModelData:1} 1
         #Ambrosium Ore
             give @a[gamemode=creative] yellow_dye{display:{Name:'{"text":"Ambrosium Ore","color":"yellow","bold":true,"italic":false}'},HideFlags:1,CustomModelData:1,Enchantments:[{}]} 1
         #Ambrosium Cluster

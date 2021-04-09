@@ -13,6 +13,6 @@
         #Ambrosium Ingot
             give @a[gamemode=creative] magma_cream{display:{Name:'{"text":"Ambrosium Ingot","color":"yellow","bold":true,"italic":false}'},HideFlags:1,CustomModelData:1,Enchantments:[{}]} 1
         #Ambrosium Shard
-            give @a[gamemode=creative] gold_nugget{display:{Name:'{"text":"Ambrosium Shard","color":"gold","bold":true,"italic":false}',Lore:['{"text":"[Accessory]","color":"dark_purple","italic":true}','{"text":"+2 Extra Hearts","color":"green","italic":false}']},HideFlags:1,CustomModelData:1,Enchantments:[{}]} 1
+            give @a[gamemode=creative] gold_nugget{display:{Name:'{"text":"Ambrosium Heart","color":"gold","bold":true,"italic":false}',Lore:['{"text":"[Accessory]","color":"dark_purple","italic":true}','{"text":"+2 Extra Hearts","color":"green","italic":false}']},HideFlags:1,CustomModelData:1,Enchantments:[{}]} 1
 #Timer
     scoreboard objectives add timer_sheep dummy

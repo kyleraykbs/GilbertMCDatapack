@@ -27,7 +27,7 @@
 
 #Block Commands
     #Ambrosium Ore
-        execute as @a[nbt={Dimension:"minecraft:the_aether"}] at @s if entity @e[type=item,distance=..10] run data merge entity @e[type=item,nbt={Item:{id:"minecraft:gold_ore"}},limit=1,distance=..10] {Item:{id:"minecraft:yellow_dye",Count:1b,tag:{display:{Name:'{"text":"Ambrosium Ore","color":"yellow","bold":true,"italic":false}'},HideFlags:1,CustomModelData:2,Enchantments:[{}]}}}
+        execute as @a[nbt={Dimension:"minecraft:the_aether"}] at @s if entity @e[type=item,distance=..10] run data merge entity @e[type=item,nbt={Item:{id:"minecraft:gold_ore"}},limit=1,distance=..10] {Item:{id:"minecraft:yellow_dye",Count:1b,tag:{display:{Name:'{"text":"Ambrosium Ore","color":"yellow","bold":true,"italic":false}'},HideFlags:1,CustomModelData:1,Enchantments:[{}]}}}
 #World Commands
     #Force Daytime
         #BROKEN #execute in minecraft:world_the_aether run time set day

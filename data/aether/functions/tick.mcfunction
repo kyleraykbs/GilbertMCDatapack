@@ -34,6 +34,8 @@
     #Portal Maintain
         fill -67 95 -1248 -67 91 -1245 minecraft:glowstone
         fill -67 92 -1246 -67 94 -1247 minecraft:light_blue_stained_glass_pane
+        execute in the_aether run fill -67 95 -1248 -67 91 -1245 minecraft:glowstone
+        execute in the_aether run fill -67 92 -1246 -67 94 -1247 minecraft:light_blue_stained_glass_pane
 
 #Timer Sheep
     #Count Down

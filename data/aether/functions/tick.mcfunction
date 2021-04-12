@@ -6,7 +6,7 @@
     #Sky Teleport
         execute in minecraft:the_aether as @a at @s if entity @s[y=270,dy=10000000,nbt={Dimension:"minecraft:overworld"}] run execute in minecraft:the_aether run tp @s ~ 8 ~
     #Teleport To Aether
-        execute as @a[distance=..999999] at @s if block ~ ~-1 ~ minecraft:glowstone if block ~ ~1 ~ minecraft:light_blue_stained_glass_pane if block ~ ~ ~ minecraft:light_blue_stained_glass_pane run execute in minecraft:the_aether run tp @s -329.44 57.00 -404.02 -268.15 -1.82
+        execute as @a[distance=..999999] at @s if block ~ ~-1 ~ minecraft:glowstone if block ~ ~1 ~ minecraft:light_blue_stained_glass_pane if block ~ ~ ~ minecraft:light_blue_stained_glass_pane run execute in minecraft:the_aether run tp @s -65.06 92.00 -1245.99 -89.68 7.81
     #Teleport To Overworld
         execute in minecraft:the_aether run execute as @a[distance=..999999] at @s if block ~ ~-1 ~ glowstone if block ~ ~ ~ minecraft:light_blue_stained_glass_pane if block ~ ~1 ~ minecraft:light_blue_stained_glass_pane run execute in minecraft:overworld run tp @s -65.51 92.00 -1245.92 -90.61 -3.49
 
